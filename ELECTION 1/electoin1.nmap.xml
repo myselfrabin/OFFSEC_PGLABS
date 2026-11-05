@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.99 scan initiated Thu Nov  5 12:53:09 2026 as: /usr/lib/nmap/nmap -&#45;privileged -sC -sV -&#45;reason -p- -T5 -oA electoin1.nmap election1.offsec -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sC -sV -&#45;reason -p- -T5 -oA electoin1.nmap election1.offsec" start="1793862489" startstr="Thu Nov  5 12:53:09 2026" version="7.99" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.194.211" addrtype="ipv4"/>
+<hostnames>
+<hostname name="election1.offsec" type="user"/>
+</hostnames>
+</hosthint>
